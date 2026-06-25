@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nexus — The B2B event operations platform that transforms chaotic multi-vendor events into clockwork-precise experiences. Trusted by enterprise event organizers worldwide." />
+  <meta name="keywords" content="B2B event management, event operations platform, vendor management, enterprise events, event planning software" />
+  <meta property="og:title" content="Nexus — From Chaos to Clockwork" />
+  <meta property="og:description" content="The command center for enterprise event operations. Coordinate vendors, manage budgets, and orchestrate flawless events at scale." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>Nexus — From Chaos to Clockwork | Enterprise Event Operations</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════ NAVIGATION ═══════════════════════════════════════ -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#" class="nav-logo" aria-label="Nexus Home">
+        <div class="logo-mark" aria-hidden="true">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <circle cx="16" cy="16" r="14" stroke="url(#logoGrad)" stroke-width="2"/>
+            <circle cx="16" cy="16" r="6" fill="url(#logoGrad)"/>
+            <line x1="16" y1="2" x2="16" y2="8" stroke="url(#logoGrad)" stroke-width="2" stroke-linecap="round"/>
+            <line x1="16" y1="24" x2="16" y2="30" stroke="url(#logoGrad)" stroke-width="2" stroke-linecap="round"/>
+            <line x1="2" y1="16" x2="8" y2="16" stroke="url(#logoGrad)" stroke-width="2" stroke-linecap="round"/>
+            <line x1="24" y1="16" x2="30" y2="16" stroke="url(#logoGrad)" stroke-width="2" stroke-linecap="round"/>
+            <defs>
+              <linearGradient id="logoGrad" x1="0" y1="0" x2="32" y2="32">
+                <stop offset="0%" stop-color="#00F5FF"/>
+                <stop offset="100%" stop-color="#7B5EA7"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <span class="logo-text">NEXUS</span>
+      </a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-ghost">Request Demo</a>
+        <a href="#contact" class="btn btn-primary">Get Started</a>
+      </div>
+
+      <button class="nav-hamburger" id="navHamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <ul role="list">
+        <li><a href="#features" class="mobile-nav-link">Features</a></li>
+        <li><a href="#how-it-works" class="mobile-nav-link">How It Works</a></li>
+        <li><a href="#testimonials" class="mobile-nav-link">Testimonials</a></li>
+        <li><a href="#pricing" class="mobile-nav-link">Pricing</a></li>
+      </ul>
+      <div class="mobile-nav-actions">
+        <a href="#contact" class="btn btn-ghost btn-full">Request Demo</a>
+        <a href="#contact" class="btn btn-primary btn-full">Get Started Free</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════ HERO ═══════════════════════════════════════ -->
+    <section class="hero" id="hero" aria-label="Hero section">
+      <!-- Animated background -->
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-grid"></div>
+        <div class="hero-orb hero-orb--1"></div>
+        <div class="hero-orb hero-orb--2"></div>
+        <div class="hero-orb hero-orb--3"></div>
+        <canvas id="particleCanvas" aria-hidden="true"></canvas>
+      </div>
+
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge" data-animate="fade-up">
+            <span class="badge-dot" aria-hidden="true"></span>
+            <span>Trusted by 500+ Enterprise Event Teams</span>
+          </div>
+
+          <h1 class="hero-headline" data-animate="fade-up" data-delay="100">
+            <span class="headline-line">From <span class="text-gradient">Chaos</span></span>
+            <span class="headline-line">to <span class="text-gradient-cyan">Clockwork.</span></span>
+          </h1>
+
+          <p class="hero-subtext" data-animate="fade-up" data-delay="200">
+            Nexus is the unified command center for enterprise event operations. 
+            Coordinate every vendor, track every budget, and orchestrate 
+            flawless multi-day events — at any scale.
+          </p>
+
+          <div class="hero-cta" data-animate="fade-up" data-delay="300">
+            <a href="#contact" class="btn btn-primary btn-large" id="heroGetStarted">
+              <span>Start Free Trial</span>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <button class="btn btn-video" id="watchDemoBtn" aria-label="Watch product demo video">
+              <span class="play-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="1.5"/>
+                  <path d="M7 6.5l5 2.5-5 2.5V6.5z" fill="currentColor"/>
+                </svg>
+              </span>
+              <span>Watch Demo</span>
+            </button>
+          </div>
+
+          <div class="hero-social-proof" data-animate="fade-up" data-delay="400">
+            <div class="proof-avatars" aria-hidden="true">
+              <div class="avatar avatar--1"></div>
+              <div class="avatar avatar--2"></div>
+              <div class="avatar avatar--3"></div>
+              <div class="avatar avatar--4"></div>
+            </div>
+            <div class="proof-text">
+              <div class="proof-stars" aria-label="5 stars">★★★★★</div>
+              <span>Loved by 2,400+ event professionals</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ─── Chaos → Clockwork Interactive Slider ─── -->
+        <div class="hero-visual" data-animate="fade-up" data-delay="150">
+          <div class="chaos-slider" id="chaosSlider" role="group" aria-label="Interactive chaos to clockwork comparison">
+            <div class="slider-label slider-label--left" aria-hidden="true">CHAOS</div>
+            <div class="slider-label slider-label--right" aria-hidden="true">CLOCKWORK</div>
+
+            <!-- CHAOS panel -->
+            <div class="slider-panel slider-panel--chaos" id="chaosPanel" aria-label="Chaotic event management view">
+              <div class="panel-header">
+                <div class="panel-dot red"></div>
+                <div class="panel-dot yellow"></div>
+                <div class="panel-dot green"></div>
+                <span class="panel-title">events_spreadsheet_FINAL_v3.xlsx</span>
+              </div>
+              <div class="chaos-content">
+                <div class="chaos-emails">
+                  <div class="chaos-email">
+                    <div class="email-avatar" style="background:#ff4444"></div>
+                    <div class="email-body">
+                      <div class="email-row" style="width:80%"></div>
+                      <div class="email-row" style="width:60%"></div>
+                    </div>
+                    <div class="email-badge urgent">URGENT</div>
+                  </div>
+                  <div class="chaos-email">
+                    <div class="email-avatar" style="background:#ff8800"></div>
+                    <div class="email-body">
+                      <div class="email-row" style="width:70%"></div>
+                      <div class="email-row" style="width:50%"></div>
+                    </div>
+                    <div class="email-badge late">LATE</div>
+                  </div>
+                  <div class="chaos-email">
+                    <div class="email-avatar" style="background:#cc0000"></div>
+                    <div class="email-body">
+                      <div class="email-row" style="width:90%"></div>
+                      <div class="email-row" style="width:40%"></div>
+                    </div>
+                    <div class="email-badge overdue">OVERDUE</div>
+                  </div>
+                  <div class="chaos-email dimmed">
+                    <div class="email-avatar" style="background:#664400"></div>
+                    <div class="email-body">
+                      <div class="email-row" style="width:55%"></div>
+                    </div>
+                    <div class="email-badge missed">MISSED</div>
+                  </div>
+                </div>
+                <div class="chaos-warnings">
+                  <div class="warning-item">⚠ Venue contract MISSING</div>
+                  <div class="warning-item">⚠ Catering invoice overdue</div>
+                  <div class="warning-item">⚠ AV team unconfirmed</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Drag Handle -->
+            <div class="slider-handle" id="sliderHandle" role="slider" aria-label="Drag to compare chaos vs clockwork" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" tabindex="0">
+              <div class="handle-line"></div>
+              <div class="handle-grip">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                  <path d="M7 7l-3 3 3 3M13 7l3 3-3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div class="handle-line"></div>
+            </div>
+
+            <!-- CLOCKWORK panel -->
+            <div class="slider-panel slider-panel--clockwork" id="clockworkPanel" aria-label="Nexus clockwork dashboard view">
+              <div class="panel-header">
+                <div class="panel-dot" style="background:#00F5FF"></div>
+                <div class="panel-dot" style="background:#7B5EA7"></div>
+                <div class="panel-dot" style="background:#00F5FF;opacity:0.5"></div>
+                <span class="panel-title">Nexus — Tech Summit 2026</span>
+              </div>
+              <div class="clockwork-content">
+                <div class="cw-stats">
+                  <div class="cw-stat">
+                    <div class="cw-stat-val">48</div>
+                    <div class="cw-stat-label">Vendors</div>
+                    <div class="cw-stat-bar"><div style="width:92%"></div></div>
+                  </div>
+                  <div class="cw-stat">
+                    <div class="cw-stat-val">$1.2M</div>
+                    <div class="cw-stat-label">Budget</div>
+                    <div class="cw-stat-bar"><div style="width:74%"></div></div>
+                  </div>
+                  <div class="cw-stat">
+                    <div class="cw-stat-val">99%</div>
+                    <div class="cw-stat-label">On Track</div>
+                    <div class="cw-stat-bar on-track"><div style="width:99%"></div></div>
+                  </div>
+                </div>
+                <div class="cw-timeline">
+                  <div class="timeline-item done">
+                    <div class="tl-dot"></div>
+                    <div class="tl-line"></div>
+                    <div class="tl-content">Venue confirmed ✓</div>
+                  </div>
+                  <div class="timeline-item done">
+                    <div class="tl-dot"></div>
+                    <div class="tl-line"></div>
+                    <div class="tl-content">Catering locked ✓</div>
+                  </div>
+                  <div class="timeline-item active">
+                    <div class="tl-dot pulse"></div>
+                    <div class="tl-line"></div>
+                    <div class="tl-content">AV setup: In progress</div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="tl-dot"></div>
+                    <div class="tl-line"></div>
+                    <div class="tl-content">Guest registration</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Floating metric cards -->
+          <div class="hero-float-card hero-float-card--left" data-animate="fade-right" data-delay="500" aria-hidden="true">
+            <div class="float-icon">⚡</div>
+            <div class="float-content">
+              <div class="float-val">3.2hrs</div>
+              <div class="float-label">Saved per event</div>
+            </div>
+          </div>
+          <div class="hero-float-card hero-float-card--right" data-animate="fade-left" data-delay="600" aria-hidden="true">
+            <div class="float-icon">🎯</div>
+            <div class="float-content">
+              <div class="float-val">99.4%</div>
+              <div class="float-label">On-time delivery</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="scroll-indicator" aria-hidden="true">
+        <div class="scroll-mouse">
+          <div class="scroll-wheel"></div>
+        </div>
+        <span>Scroll to explore</span>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ LOGOS ═══════════════════════════════════════ -->
+    <section class="logos-section" aria-label="Trusted by enterprise companies">
+      <div class="container">
+        <p class="logos-label">Trusted by teams at</p>
+        <div class="logos-track" aria-hidden="true">
+          <div class="logos-inner">
+            <div class="logo-item">SALESFORCE</div>
+            <div class="logo-item">MICROSOFT</div>
+            <div class="logo-item">DELOITTE</div>
+            <div class="logo-item">MCKINSEY</div>
+            <div class="logo-item">CISCO</div>
+            <div class="logo-item">ADOBE</div>
+            <div class="logo-item">HubSpot</div>
+            <div class="logo-item">ORACLE</div>
+            <!-- Duplicate for infinite scroll -->
+            <div class="logo-item" aria-hidden="true">SALESFORCE</div>
+            <div class="logo-item" aria-hidden="true">MICROSOFT</div>
+            <div class="logo-item" aria-hidden="true">DELOITTE</div>
+            <div class="logo-item" aria-hidden="true">MCKINSEY</div>
+            <div class="logo-item" aria-hidden="true">CISCO</div>
+            <div class="logo-item" aria-hidden="true">ADOBE</div>
+            <div class="logo-item" aria-hidden="true">HubSpot</div>
+            <div class="logo-item" aria-hidden="true">ORACLE</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ PROBLEM vs SOLUTION ═══════════════════════════════════════ -->
+    <section class="problem-solution" id="problem-solution" aria-labelledby="problemSolutionHeading">
+      <div class="container">
+        <div class="section-header" data-animate="fade-up">
+          <div class="section-tag">The Problem</div>
+          <h2 id="problemSolutionHeading" class="section-title">Event coordination is <span class="text-gradient">broken.</span></h2>
+          <p class="section-subtitle">Most enterprise events are managed across dozens of disconnected tools, email chains, and spreadsheets — creating catastrophic risk.</p>
+        </div>
+
+        <div class="prob-sol-grid">
+          <!-- Problems -->
+          <div class="prob-col" data-animate="fade-right">
+            <div class="col-header col-header--red">
+              <span class="col-icon" aria-hidden="true">💀</span>
+              <h3>Without Nexus</h3>
+            </div>
+            <ul class="prob-list" role="list">
+              <li class="prob-item" data-animate="fade-right" data-delay="50">
+                <span class="prob-x" aria-hidden="true">✗</span>
+                <div>
+                  <strong>Siloed communication</strong>
+                  <p>Vendors buried in email threads. Critical updates lost. No single source of truth.</p>
+                </div>
+              </li>
+              <li class="prob-item" data-animate="fade-right" data-delay="100">
+                <span class="prob-x" aria-hidden="true">✗</span>
+                <div>
+                  <strong>Budget blindspots</strong>
+                  <p>Invoices arrive post-event. Overspend discovered too late to course-correct.</p>
+                </div>
+              </li>
+              <li class="prob-item" data-animate="fade-right" data-delay="150">
+                <span class="prob-x" aria-hidden="true">✗</span>
+                <div>
+                  <strong>Manual status chasing</strong>
+                  <p>Hours per week emailing vendors for updates that should be automatic.</p>
+                </div>
+              </li>
+              <li class="prob-item" data-animate="fade-right" data-delay="200">
+                <span class="prob-x" aria-hidden="true">✗</span>
+                <div>
+                  <strong>Zero real-time visibility</strong>
+                  <p>Leadership can't see status without a status meeting. Decisions delayed.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- VS Divider -->
+          <div class="vs-divider" aria-hidden="true">
+            <div class="vs-line"></div>
+            <div class="vs-badge">VS</div>
+            <div class="vs-line"></div>
+          </div>
+
+          <!-- Solutions -->
+          <div class="sol-col" data-animate="fade-left">
+            <div class="col-header col-header--cyan">
+              <span class="col-icon" aria-hidden="true">⚡</span>
+              <h3>With Nexus</h3>
+            </div>
+            <ul class="sol-list" role="list">
+              <li class="sol-item" data-animate="fade-left" data-delay="50">
+                <span class="sol-check" aria-hidden="true">✓</span>
+                <div>
+                  <strong>Unified command center</strong>
+                  <p>Every vendor, contract, and update in one real-time dashboard. Full clarity.</p>
+                </div>
+              </li>
+              <li class="sol-item" data-animate="fade-left" data-delay="100">
+                <span class="sol-check" aria-hidden="true">✓</span>
+                <div>
+                  <strong>Live budget tracking</strong>
+                  <p>See spend in real time. Get alerted before overages. Report with one click.</p>
+                </div>
+              </li>
+              <li class="sol-item" data-animate="fade-left" data-delay="150">
+                <span class="sol-check" aria-hidden="true">✓</span>
+                <div>
+                  <strong>Automated vendor workflows</strong>
+                  <p>Auto-reminders, milestone tracking, and approval chains. Zero chasing.</p>
+                </div>
+              </li>
+              <li class="sol-item" data-animate="fade-left" data-delay="200">
+                <span class="sol-check" aria-hidden="true">✓</span>
+                <div>
+                  <strong>Executive live dashboards</strong>
+                  <p>Leadership sees the full picture anytime, anywhere. Decisions in seconds.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ FEATURES ═══════════════════════════════════════ -->
+    <section class="features" id="features" aria-labelledby="featuresHeading">
+      <div class="container">
+        <div class="section-header" data-animate="fade-up">
+          <div class="section-tag">Platform Features</div>
+          <h2 id="featuresHeading" class="section-title">Every tool your team <span class="text-gradient-cyan">needs.</span></h2>
+          <p class="section-subtitle">Purpose-built for enterprise event operations teams managing 10 to 10,000+ attendees.</p>
+        </div>
+
+        <div class="features-grid">
+          <article class="feature-card feature-card--wide" data-animate="fade-up" data-delay="0">
+            <div class="feature-visual" aria-hidden="true">
+              <div class="fv-command-center">
+                <div class="cc-header">
+                  <div class="cc-dot"></div><div class="cc-dot" style="opacity:0.6"></div><div class="cc-dot" style="opacity:0.3"></div>
+                </div>
+                <div class="cc-bars">
+                  <div class="cc-bar" style="height:60%"></div>
+                  <div class="cc-bar" style="height:85%"></div>
+                  <div class="cc-bar" style="height:45%"></div>
+                  <div class="cc-bar" style="height:95%"></div>
+                  <div class="cc-bar" style="height:70%"></div>
+                  <div class="cc-bar" style="height:55%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="feature-content">
+              <div class="feature-icon feature-icon--command" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <rect x="2" y="3" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                  <path d="M7 21h10M12 17v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                  <path d="M6 8l3 3-3 3M13 14h5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h3>Command Center Dashboard</h3>
+              <p>Your entire event portfolio in a single, real-time view. Monitor every event simultaneously with live status feeds, budget alerts, and vendor health scores.</p>
+              <ul class="feature-bullets" role="list">
+                <li>Real-time vendor status tracking</li>
+                <li>Multi-event portfolio view</li>
+                <li>Custom alert thresholds</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="feature-card" data-animate="fade-up" data-delay="100">
+            <div class="feature-visual" aria-hidden="true">
+              <div class="fv-vendor">
+                <div class="vendor-item approved">
+                  <div class="vi-dot"></div>
+                  <div class="vi-bars"><div style="width:80%"></div><div style="width:60%"></div></div>
+                  <div class="vi-tag">✓</div>
+                </div>
+                <div class="vendor-item pending">
+                  <div class="vi-dot" style="background:#FFB800"></div>
+                  <div class="vi-bars"><div style="width:70%"></div><div style="width:50%"></div></div>
+                  <div class="vi-tag pending">…</div>
+                </div>
+                <div class="vendor-item approved">
+                  <div class="vi-dot"></div>
+                  <div class="vi-bars"><div style="width:90%"></div><div style="width:45%"></div></div>
+                  <div class="vi-tag">✓</div>
+                </div>
+              </div>
+            </div>
+            <div class="feature-content">
+              <div class="feature-icon feature-icon--vendor" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <circle cx="9" cy="7" r="3" stroke="currentColor" stroke-width="1.5"/>
+                  <path d="M3 21v-2a4 4 0 014-4h4a4 4 0 014 4v2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                  <path d="M16 3.5c1.5.5 2.5 1.5 2.5 3s-1 2.5-2.5 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                  <path d="M19 21v-2a4 4 0 00-2.5-3.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h3>Vendor Orchestration</h3>
+              <p>Manage contracts, approvals, and communications with all your vendors from a single hub. Automated reminders eliminate manual follow-ups.</p>
+            </div>
+          </article>
+
+          <article class="feature-card" data-animate="fade-up" data-delay="150">
+            <div class="feature-visual" aria-hidden="true">
+              <div class="fv-budget">
+                <div class="budget-ring">
+                  <svg viewBox="0 0 80 80" width="80" height="80">
+                    <circle cx="40" cy="40" r="32" fill="none" stroke="rgba(0,245,255,0.1)" stroke-width="8"/>
+                    <circle cx="40" cy="40" r="32" fill="none" stroke="url(#budgetGrad)" stroke-width="8" stroke-dasharray="201" stroke-dashoffset="50" stroke-linecap="round" transform="rotate(-90 40 40)"/>
+                    <defs>
+                      <linearGradient id="budgetGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#00F5FF"/>
+                        <stop offset="100%" stop-color="#7B5EA7"/>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  <div class="budget-pct">75%</div>
+                </div>
+                <div class="budget-label">Budget Used</div>
+              </div>
+            </div>
+            <div class="feature-content">
+              <div class="feature-icon feature-icon--budget" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h3>Live Budget Intelligence</h3>
+              <p>Track every dollar in real time. Automated variance alerts, approval workflows, and one-click financial reporting that your CFO will love.</p>
+            </div>
+          </article>
+
+          <article class="feature-card" data-animate="fade-up" data-delay="200">
+            <div class="feature-visual" aria-hidden="true">
+              <div class="fv-timeline">
+                <div class="ftl-item active">
+                  <div class="ftl-dot pulse-cyan"></div>
+                  <div class="ftl-bar" style="width:100%"></div>
+                </div>
+                <div class="ftl-item">
+                  <div class="ftl-dot"></div>
+                  <div class="ftl-bar" style="width:65%"></div>
+                </div>
+                <div class="ftl-item upcoming">
+                  <div class="ftl-dot upcoming-dot"></div>
+                  <div class="ftl-bar" style="width:0%"></div>
+                </div>
+                <div class="ftl-item upcoming">
+                  <div class="ftl-dot upcoming-dot"></div>
+                  <div class="ftl-bar" style="width:0%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="feature-content">
+              <div class="feature-icon feature-icon--timeline" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h3>Smart Event Timelines</h3>
+              <p>Auto-generated run-of-show timelines that adapt in real time. Drag, drop, and share across your entire team instantly.</p>
+            </div>
+          </article>
+
+          <article class="feature-card" data-animate="fade-up" data-delay="250">
+            <div class="feature-visual" aria-hidden="true">
+              <div class="fv-analytics">
+                <div class="analytics-line">
+                  <svg viewBox="0 0 120 60" width="120" height="60" preserveAspectRatio="none">
+                    <defs>
+                      <linearGradient id="lineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stop-color="#00F5FF" stop-opacity="0.3"/>
+                        <stop offset="100%" stop-color="#00F5FF" stop-opacity="0"/>
+                      </linearGradient>
+                    </defs>
+                    <path d="M0 50 C20 45, 30 30, 50 25 S80 10, 120 5" fill="none" stroke="#00F5FF" stroke-width="2"/>
+                    <path d="M0 50 C20 45, 30 30, 50 25 S80 10, 120 5 V60 H0Z" fill="url(#lineGrad)"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="feature-content">
+              <div class="feature-icon feature-icon--analytics" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M18 20V10M12 20V4M6 20v-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h3>Post-Event Analytics</h3>
+              <p>Turn every event into intelligence. ROI tracking, attendee satisfaction scores, and vendor performance reports delivered automatically.</p>
+            </div>
+          </article>
+
+          <article class="feature-card" data-animate="fade-up" data-delay="300">
+            <div class="feature-visual" aria-hidden="true">
+              <div class="fv-integrations">
+                <div class="int-grid">
+                  <div class="int-logo">SF</div>
+                  <div class="int-logo">HS</div>
+                  <div class="int-logo">SL</div>
+                  <div class="int-logo">ZM</div>
+                  <div class="int-center">
+                    <div class="int-nexus">N</div>
+                  </div>
+                  <div class="int-logo">MS</div>
+                  <div class="int-logo">JR</div>
+                  <div class="int-logo">ST</div>
+                  <div class="int-logo">GS</div>
+                </div>
+              </div>
+            </div>
+            <div class="feature-content">
+              <div class="feature-icon feature-icon--integrations" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h3>200+ Integrations</h3>
+              <p>Connect with your existing stack. Salesforce, HubSpot, Slack, Zoom, Microsoft 365, and 200+ more. Setup in minutes, not months.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ HOW IT WORKS ═══════════════════════════════════════ -->
+    <section class="how-it-works" id="how-it-works" aria-labelledby="howItWorksHeading">
+      <div class="container">
+        <div class="section-header" data-animate="fade-up">
+          <div class="section-tag">How It Works</div>
+          <h2 id="howItWorksHeading" class="section-title">Up and running in <span class="text-gradient">48 hours.</span></h2>
+          <p class="section-subtitle">No lengthy implementation. No IT tickets. Start coordinating your next event the moment you sign up.</p>
+        </div>
+
+        <div class="steps-container">
+          <div class="steps-line" aria-hidden="true"></div>
+
+          <div class="step" data-animate="fade-up" data-delay="0">
+            <div class="step-number" aria-hidden="true">01</div>
+            <div class="step-content">
+              <h3>Connect your tools</h3>
+              <p>Integrate your existing stack in minutes. Nexus pulls in your contacts, vendors, and contracts automatically — no manual data entry.</p>
+            </div>
+            <div class="step-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                <path d="M14 3v22M3 14h22M7 7l14 14M21 7L7 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </div>
+
+          <div class="step" data-animate="fade-up" data-delay="100">
+            <div class="step-number" aria-hidden="true">02</div>
+            <div class="step-content">
+              <h3>Build your event</h3>
+              <p>Use our AI-powered setup wizard to generate timelines, assign vendors, set budgets, and create your run-of-show in under 30 minutes.</p>
+            </div>
+            <div class="step-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                <rect x="4" y="4" width="20" height="20" rx="3" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M9 14l4 4 6-8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
+
+          <div class="step" data-animate="fade-up" data-delay="200">
+            <div class="step-number" aria-hidden="true">03</div>
+            <div class="step-content">
+              <h3>Orchestrate with precision</h3>
+              <p>Execute the event with full visibility. Every team member and vendor sees exactly what they need, when they need it. Zero confusion.</p>
+            </div>
+            <div class="step-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                <circle cx="14" cy="14" r="10" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M14 9v5l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
+
+          <div class="step" data-animate="fade-up" data-delay="300">
+            <div class="step-number" aria-hidden="true">04</div>
+            <div class="step-content">
+              <h3>Report & improve</h3>
+              <p>Instant post-event reports for stakeholders. AI-powered recommendations to make your next event even better. Continuous improvement baked in.</p>
+            </div>
+            <div class="step-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                <path d="M4 22l6-7 5 4 6-9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="22" cy="6" r="3" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ METRICS ═══════════════════════════════════════ -->
+    <section class="metrics" aria-label="Platform metrics">
+      <div class="container">
+        <div class="metrics-grid">
+          <div class="metric-item" data-animate="fade-up" data-counter="500" data-suffix="+">
+            <div class="metric-number" data-target="500">0</div>
+            <div class="metric-suffix">+</div>
+            <div class="metric-label">Enterprise Clients</div>
+          </div>
+          <div class="metric-item" data-animate="fade-up" data-delay="100" data-counter="12000" data-suffix="+">
+            <div class="metric-number" data-target="12000">0</div>
+            <div class="metric-suffix">+</div>
+            <div class="metric-label">Events Orchestrated</div>
+          </div>
+          <div class="metric-item" data-animate="fade-up" data-delay="200">
+            <div class="metric-number" data-target="99.4">0</div>
+            <div class="metric-suffix">%</div>
+            <div class="metric-label">On-Time Event Delivery</div>
+          </div>
+          <div class="metric-item" data-animate="fade-up" data-delay="300">
+            <div class="metric-number" data-target="3.2">0</div>
+            <div class="metric-suffix">hrs</div>
+            <div class="metric-label">Saved Per Event</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ TESTIMONIALS ═══════════════════════════════════════ -->
+    <section class="testimonials" id="testimonials" aria-labelledby="testimonialsHeading">
+      <div class="container">
+        <div class="section-header" data-animate="fade-up">
+          <div class="section-tag">Customer Stories</div>
+          <h2 id="testimonialsHeading" class="section-title">Don't just take <span class="text-gradient-cyan">our word.</span></h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card testimonial-card--featured" data-animate="fade-up" data-delay="0">
+            <div class="test-quote" aria-hidden="true">"</div>
+            <blockquote>
+              <p>Nexus transformed how we run our annual tech summits. What used to take a team of 12 and three months of chaos now takes a team of 6 and runs like actual clockwork. The ROI was visible within the first event.</p>
+            </blockquote>
+            <footer class="test-author">
+              <div class="test-avatar test-avatar--1" aria-hidden="true"></div>
+              <div class="test-info">
+                <cite class="test-name">Sarah Chen</cite>
+                <div class="test-role">VP of Events, Salesforce</div>
+              </div>
+              <div class="test-stars" aria-label="5 stars">★★★★★</div>
+            </footer>
+          </article>
+
+          <article class="testimonial-card" data-animate="fade-up" data-delay="100">
+            <div class="test-quote" aria-hidden="true">"</div>
+            <blockquote>
+              <p>The vendor management module alone saved us 15 hours per event. Our vendors love the portal too — no more chasing emails for approvals.</p>
+            </blockquote>
+            <footer class="test-author">
+              <div class="test-avatar test-avatar--2" aria-hidden="true"></div>
+              <div class="test-info">
+                <cite class="test-name">Marcus Williams</cite>
+                <div class="test-role">Head of Event Operations, Deloitte</div>
+              </div>
+              <div class="test-stars" aria-label="5 stars">★★★★★</div>
+            </footer>
+          </article>
+
+          <article class="testimonial-card" data-animate="fade-up" data-delay="200">
+            <div class="test-quote" aria-hidden="true">"</div>
+            <blockquote>
+              <p>We run 200+ events annually. Before Nexus, each one was a fire drill. Now our team has visibility across every event simultaneously. It's a different game.</p>
+            </blockquote>
+            <footer class="test-author">
+              <div class="test-avatar test-avatar--3" aria-hidden="true"></div>
+              <div class="test-info">
+                <cite class="test-name">Priya Mehta</cite>
+                <div class="test-role">Director of Marketing, HubSpot</div>
+              </div>
+              <div class="test-stars" aria-label="5 stars">★★★★★</div>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ PRICING ═══════════════════════════════════════ -->
+    <section class="pricing" id="pricing" aria-labelledby="pricingHeading">
+      <div class="container">
+        <div class="section-header" data-animate="fade-up">
+          <div class="section-tag">Pricing</div>
+          <h2 id="pricingHeading" class="section-title">Simple, <span class="text-gradient">transparent</span> pricing.</h2>
+          <p class="section-subtitle">No hidden fees. No per-event charges. Scale without limits.</p>
+        </div>
+
+        <div class="pricing-toggle" data-animate="fade-up" data-delay="50" role="group" aria-label="Billing period">
+          <button class="toggle-btn active" id="toggleMonthly" aria-pressed="true">Monthly</button>
+          <button class="toggle-btn" id="toggleAnnual" aria-pressed="false">Annual <span class="toggle-badge">Save 20%</span></button>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="pricing-card" data-animate="fade-up" data-delay="0">
+            <div class="pricing-card-header">
+              <div class="pricing-tier">Starter</div>
+              <div class="pricing-price">
+                <span class="price-currency">$</span>
+                <span class="price-amount" data-monthly="299" data-annual="239">299</span>
+                <span class="price-period">/mo</span>
+              </div>
+              <div class="pricing-desc">For teams running up to 20 events per year</div>
+            </div>
+            <ul class="pricing-features" role="list">
+              <li><span aria-hidden="true">✓</span> Up to 5 team members</li>
+              <li><span aria-hidden="true">✓</span> 20 events/year</li>
+              <li><span aria-hidden="true">✓</span> Vendor management hub</li>
+              <li><span aria-hidden="true">✓</span> Budget tracking</li>
+              <li><span aria-hidden="true">✓</span> Basic analytics</li>
+              <li><span aria-hidden="true">✓</span> Email support</li>
+            </ul>
+            <a href="#contact" class="btn btn-ghost btn-full pricing-cta">Start Free Trial</a>
+          </article>
+
+          <article class="pricing-card pricing-card--featured" data-animate="fade-up" data-delay="100">
+            <div class="pricing-popular">Most Popular</div>
+            <div class="pricing-card-header">
+              <div class="pricing-tier">Professional</div>
+              <div class="pricing-price">
+                <span class="price-currency">$</span>
+                <span class="price-amount" data-monthly="799" data-annual="639">799</span>
+                <span class="price-period">/mo</span>
+              </div>
+              <div class="pricing-desc">For teams running 20–100 events per year</div>
+            </div>
+            <ul class="pricing-features" role="list">
+              <li><span aria-hidden="true">✓</span> Up to 20 team members</li>
+              <li><span aria-hidden="true">✓</span> Unlimited events</li>
+              <li><span aria-hidden="true">✓</span> Full vendor orchestration</li>
+              <li><span aria-hidden="true">✓</span> Live budget intelligence</li>
+              <li><span aria-hidden="true">✓</span> Advanced analytics & ROI</li>
+              <li><span aria-hidden="true">✓</span> 50+ integrations</li>
+              <li><span aria-hidden="true">✓</span> Priority support</li>
+              <li><span aria-hidden="true">✓</span> Executive dashboards</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary btn-full pricing-cta">Start Free Trial</a>
+          </article>
+
+          <article class="pricing-card" data-animate="fade-up" data-delay="200">
+            <div class="pricing-card-header">
+              <div class="pricing-tier">Enterprise</div>
+              <div class="pricing-price">
+                <span class="price-custom">Custom</span>
+              </div>
+              <div class="pricing-desc">For organizations running 100+ events annually</div>
+            </div>
+            <ul class="pricing-features" role="list">
+              <li><span aria-hidden="true">✓</span> Unlimited team members</li>
+              <li><span aria-hidden="true">✓</span> Unlimited events</li>
+              <li><span aria-hidden="true">✓</span> White-label options</li>
+              <li><span aria-hidden="true">✓</span> Custom integrations</li>
+              <li><span aria-hidden="true">✓</span> Dedicated CSM</li>
+              <li><span aria-hidden="true">✓</span> SLA guarantees</li>
+              <li><span aria-hidden="true">✓</span> On-site onboarding</li>
+              <li><span aria-hidden="true">✓</span> 200+ integrations</li>
+            </ul>
+            <a href="#contact" class="btn btn-ghost btn-full pricing-cta">Contact Sales</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ CONTACT / LEAD FORM ═══════════════════════════════════════ -->
+    <section class="contact" id="contact" aria-labelledby="contactHeading">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-left" data-animate="fade-right">
+            <div class="section-tag">Get Started</div>
+            <h2 id="contactHeading" class="contact-title">Ready to bring <span class="text-gradient-cyan">clockwork</span> to your events?</h2>
+            <p class="contact-desc">Join 500+ enterprise event teams who've eliminated the chaos. Book a personalized demo and see Nexus in action for your specific workflow.</p>
+
+            <div class="contact-benefits">
+              <div class="contact-benefit">
+                <span class="benefit-icon" aria-hidden="true">✓</span>
+                <span>Live demo tailored to your event types</span>
+              </div>
+              <div class="contact-benefit">
+                <span class="benefit-icon" aria-hidden="true">✓</span>
+                <span>14-day free trial, no credit card required</span>
+              </div>
+              <div class="contact-benefit">
+                <span class="benefit-icon" aria-hidden="true">✓</span>
+                <span>Dedicated onboarding specialist included</span>
+              </div>
+              <div class="contact-benefit">
+                <span class="benefit-icon" aria-hidden="true">✓</span>
+                <span>Data migration support from your current tools</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-right" data-animate="fade-left">
+            <!-- Success State -->
+            <div class="form-success" id="formSuccess" aria-live="polite" hidden>
+              <div class="success-icon" aria-hidden="true">
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                  <circle cx="30" cy="30" r="28" stroke="url(#successGrad)" stroke-width="2"/>
+                  <path d="M18 30l9 9 15-15" stroke="url(#successGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <defs>
+                    <linearGradient id="successGrad" x1="0" y1="0" x2="60" y2="60">
+                      <stop offset="0%" stop-color="#00F5FF"/>
+                      <stop offset="100%" stop-color="#7B5EA7"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <h3>You're in! 🎉</h3>
+              <p>Thanks for reaching out. A Nexus specialist will contact you within 1 business hour to schedule your personalized demo.</p>
+              <div class="success-next">
+                <strong>What happens next:</strong>
+                <ol>
+                  <li>Check your inbox for a confirmation email</li>
+                  <li>Your specialist will send calendar invite options</li>
+                  <li>We'll tailor the demo to your specific event types</li>
+                </ol>
+              </div>
+            </div>
+
+            <!-- Contact Form -->
+            <form class="contact-form" id="contactForm" novalidate aria-label="Request a demo form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstName" class="form-label">First Name <span class="required" aria-label="required">*</span></label>
+                  <input type="text" id="firstName" name="firstName" class="form-input" placeholder="Alex" required autocomplete="given-name" />
+                  <span class="form-error" id="firstNameError" role="alert"></span>
+                </div>
+                <div class="form-group">
+                  <label for="lastName" class="form-label">Last Name <span class="required" aria-label="required">*</span></label>
+                  <input type="text" id="lastName" name="lastName" class="form-input" placeholder="Johnson" required autocomplete="family-name" />
+                  <span class="form-error" id="lastNameError" role="alert"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="companyEmail" class="form-label">Work Email <span class="required" aria-label="required">*</span></label>
+                <input type="email" id="companyEmail" name="companyEmail" class="form-input" placeholder="alex@company.com" required autocomplete="email" />
+                <span class="form-error" id="companyEmailError" role="alert"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="companyName" class="form-label">Company <span class="required" aria-label="required">*</span></label>
+                <input type="text" id="companyName" name="companyName" class="form-input" placeholder="Acme Corp" required autocomplete="organization" />
+                <span class="form-error" id="companyNameError" role="alert"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="eventVolume" class="form-label">Annual Event Volume <span class="required" aria-label="required">*</span></label>
+                <select id="eventVolume" name="eventVolume" class="form-input form-select" required>
+                  <option value="" disabled selected>Select number of events / year</option>
+                  <option value="1-10">1–10 events</option>
+                  <option value="11-50">11–50 events</option>
+                  <option value="51-100">51–100 events</option>
+                  <option value="101-200">101–200 events</option>
+                  <option value="200+">200+ events</option>
+                </select>
+                <span class="form-error" id="eventVolumeError" role="alert"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Tell us about your biggest event challenge <span class="form-label-optional">(Optional)</span></label>
+                <textarea id="message" name="message" class="form-input form-textarea" placeholder="e.g., managing multiple vendors across time zones, budget visibility..." rows="4"></textarea>
+              </div>
+
+              <div class="form-group form-checkbox-group">
+                <label class="checkbox-label" for="consent">
+                  <input type="checkbox" id="consent" name="consent" required />
+                  <span class="checkbox-custom" aria-hidden="true"></span>
+                  <span class="checkbox-text">I agree to receive communications from Nexus. I can unsubscribe at any time. <a href="#" class="form-link">Privacy Policy</a></span>
+                </label>
+                <span class="form-error" id="consentError" role="alert"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full btn-large" id="formSubmitBtn">
+                <span class="btn-text">Request My Free Demo</span>
+                <span class="btn-loading" hidden aria-hidden="true">
+                  <svg class="spinner" viewBox="0 0 24 24" fill="none" width="20" height="20">
+                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3" stroke-dasharray="60" stroke-dashoffset="20"/>
+                  </svg>
+                  Sending...
+                </span>
+              </button>
+
+              <p class="form-disclaimer">
+                By submitting, you agree to our <a href="#" class="form-link">Terms of Service</a> and <a href="#" class="form-link">Privacy Policy</a>.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ CTA BANNER ═══════════════════════════════════════ -->
+    <section class="cta-banner" aria-label="Call to action">
+      <div class="cta-banner-bg" aria-hidden="true">
+        <div class="cta-orb cta-orb--1"></div>
+        <div class="cta-orb cta-orb--2"></div>
+      </div>
+      <div class="container">
+        <div class="cta-content" data-animate="fade-up">
+          <h2 class="cta-title">Your next event could run like <span class="text-gradient-cyan">clockwork.</span></h2>
+          <p class="cta-subtitle">Start your 14-day free trial. No credit card required. Cancel anytime.</p>
+          <div class="cta-actions">
+            <a href="#contact" class="btn btn-primary btn-large">Start Free Trial</a>
+            <a href="#contact" class="btn btn-ghost btn-large">Talk to Sales</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════ FOOTER ═══════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo footer-logo" aria-label="Nexus Home">
+            <div class="logo-mark" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+                <circle cx="16" cy="16" r="14" stroke="url(#footerLogoGrad)" stroke-width="2"/>
+                <circle cx="16" cy="16" r="6" fill="url(#footerLogoGrad)"/>
+                <line x1="16" y1="2" x2="16" y2="8" stroke="url(#footerLogoGrad)" stroke-width="2" stroke-linecap="round"/>
+                <line x1="16" y1="24" x2="16" y2="30" stroke="url(#footerLogoGrad)" stroke-width="2" stroke-linecap="round"/>
+                <line x1="2" y1="16" x2="8" y2="16" stroke="url(#footerLogoGrad)" stroke-width="2" stroke-linecap="round"/>
+                <line x1="24" y1="16" x2="30" y2="16" stroke="url(#footerLogoGrad)" stroke-width="2" stroke-linecap="round"/>
+                <defs>
+                  <linearGradient id="footerLogoGrad" x1="0" y1="0" x2="32" y2="32">
+                    <stop offset="0%" stop-color="#00F5FF"/>
+                    <stop offset="100%" stop-color="#7B5EA7"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <span class="logo-text">NEXUS</span>
+          </a>
+          <p class="footer-tagline">From Chaos to Clockwork — the enterprise event operations platform trusted by the world's most demanding event teams.</p>
+          <div class="footer-socials" role="list" aria-label="Social media links">
+            <a href="#" class="social-link" role="listitem" aria-label="Twitter">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.259 5.631 5.905-5.631zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" class="social-link" role="listitem" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="#" class="social-link" role="listitem" aria-label="YouTube">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <div class="footer-col">
+            <h4 class="footer-col-title">Product</h4>
+            <ul role="list">
+              <li><a href="#features">Features</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#how-it-works">How It Works</a></li>
+              <li><a href="#">Changelog</a></li>
+              <li><a href="#">Roadmap</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 class="footer-col-title">Solutions</h4>
+            <ul role="list">
+              <li><a href="#">Conferences</a></li>
+              <li><a href="#">Corporate Events</a></li>
+              <li><a href="#">Product Launches</a></li>
+              <li><a href="#">Trade Shows</a></li>
+              <li><a href="#">Virtual Events</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 class="footer-col-title">Company</h4>
+            <ul role="list">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 class="footer-col-title">Resources</h4>
+            <ul role="list">
+              <li><a href="#">Documentation</a></li>
+              <li><a href="#">API Reference</a></li>
+              <li><a href="#">Status Page</a></li>
+              <li><a href="#">Integrations</a></li>
+              <li><a href="#">Community</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2026 Nexus Event Operations, Inc. All rights reserved.</p>
+        <div class="footer-legal" role="list">
+          <a href="#" role="listitem">Privacy Policy</a>
+          <a href="#" role="listitem">Terms of Service</a>
+          <a href="#" role="listitem">Cookie Settings</a>
+          <a href="#" role="listitem">Security</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Video Modal (Demo) -->
+  <div class="modal-overlay" id="demoModal" role="dialog" aria-modal="true" aria-label="Product demo video" hidden>
+    <div class="modal-container">
+      <button class="modal-close" id="modalClose" aria-label="Close demo video">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <path d="M4 4l12 12M16 4L4 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <div class="modal-video-placeholder">
+        <div class="modal-play-icon" aria-hidden="true">▶</div>
+        <p>Nexus Product Demo</p>
+        <p class="modal-video-note">2 min — See the full platform in action</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
